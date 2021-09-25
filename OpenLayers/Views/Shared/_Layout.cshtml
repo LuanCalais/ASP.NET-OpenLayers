@@ -9,7 +9,7 @@
     @Scripts.Render("~/Content/Site.css")
     @Scripts.Render("~/bundles/modernizr")
     <link rel="stylesheet" href="~/libs/ol.css" />
-
+    <link rel="stylesheet" href="~/Content/Site.css" />
 </head>
 <body>
     <div class="navbar navbar-inverse navbar-fixed-top">
@@ -20,7 +20,7 @@
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
-                @Html.ActionLink("Nome do aplicativo", "Index", "Home", new { area = "" }, new { @class = "navbar-brand" })
+                @Html.ActionLink("Estudo OpenLayers", "Index", "Home", new { area = "" }, new { @class = "navbar-brand" })
             </div>
 
         </div>
@@ -28,8 +28,8 @@
     <div class="container body-content">
         @RenderBody()
         <hr />
-        <footer>
-            <p>&copy; @DateTime.Now.Year - Meu Aplicativo ASP.NET</p>
+        <footer style="text-align: center">
+            <p>&copy; @DateTime.Now.Year - Demonstrando OpenLayers</p>
         </footer>
     </div>
 

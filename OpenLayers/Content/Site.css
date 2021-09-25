@@ -1,15 +1,71 @@
-﻿body {
+﻿
+
+body {
     padding-top: 50px;
     padding-bottom: 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
-.map{
+
+.grid-container {
+    display: grid;
+    grid-template-columns: 20vw 80vw;
+    grid-template-rows: 100vh;
+    top: 70px;
+    left: 60px;
+    position: absolute;
+}
+
+.sidebar {
+    margin-left: 15px;
+}
+
+.map {
     height: 600px;
+    width: 87%;
+}
+
+.mapGen {
+    height: 460px;
     width: 100%;
 }
 
-footer{
-    text-align: center;
+.mapa {
+    position: absolute;
+    height: 550px;
+    width: 67%;
+    top: 30%;
+    left: 15%;
+    padding-bottom: 60px;
 }
 
+.paragrafo {
+    position: absolute;
+    top: 21.4%;
+    left: 33.6%;
+    background: #D3D3D3;
+    padding-bottom: 0.2px;
+    padding-top: 5px;
+    border-radius: 15px 15px 0px 0px;
+}
 
+.negrito {
+    font-weight: bold;
+}
+
+.navbar {
+    background-color: #87CEEB;
+}
+
+.navbar.a {
+    color: white;
+}
+
+.decoration {
+    color: #556B2F;
+    font-weight: bolder;
+}
+
+.decoration:hover {
+    color: black;
+}
